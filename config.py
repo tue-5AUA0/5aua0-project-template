@@ -10,6 +10,6 @@ class Config:
     weight_decay = 1e-4
     num_classes = 10
     gt_dir = "./data/cifar-10-batches-py/"
-    num_iterations = 25000
+    num_iterations = 10000
     log_iterations = 100
     enable_cuda = False
