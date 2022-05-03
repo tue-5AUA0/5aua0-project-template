@@ -9,7 +9,7 @@ This code has been tested with the following versions:
 - torchvision == 0.12
 - numpy == 1.21
 - pillow == 9.0
-- cudatoolkit == 11.3
+- cudatoolkit == 11.3 (Only required for using GPU & CUDA)
 
 ## Dataset
 To download and prepare the dataset, follow these steps:
