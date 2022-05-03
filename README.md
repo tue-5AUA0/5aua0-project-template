@@ -5,8 +5,8 @@ This template contains a minimal implementation of a convolutional neural networ
 ## Requirements
 This code has been tested with the following versions:
 - python == 3.8
-- pytorch == 1.10
-- torchvision == 0.11
+- pytorch == 1.11
+- torchvision == 0.12
 - numpy == 1.21
 - pillow == 9.0
 - cudatoolkit == 11.3
@@ -40,7 +40,7 @@ The hyperparameters are defined in `config.py`. We define:
 - `weight_decay`: The weight decay (default: 1e-4)
 - `num_classes`: The number of classes to be classified (default: 10 for CIFAR10)
 - `gt_dir`: Location where the dataset/ground-truth is stored (default: `"./data/cifar-10-batches-py/"`)
-- `num_iterations`: The number of iterations to train the network (default: 25000)
+- `num_iterations`: The number of iterations to train the network (default: 10000)
 - `log_iterations`: The number of iterations after which the loss is logged and reported (default: 100)
 - `enable_cuda`: Enabling CUDA. NOTE: only possible if PyTorch is installed with CUDA, and if a GPU is available (default: False)
 
