@@ -11,12 +11,13 @@ This code has been tested with the following versions:
 - pillow == 9.4
 - cudatoolkit == 11.7 (Only required for using GPU & CUDA)
 
-## Conda install
-
+We recommend you to install these dependencies using [Anaconda](https://docs.anaconda.com/anaconda/install/). With Anaconda installed, the dependencies can be installed with
+```bash
 conda create --name 5aua0 python=3.10
 conda activate 5aua0
 conda init
 conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+```     
 
 ## Dataset
 To download and prepare the dataset, follow these steps:
@@ -60,3 +61,6 @@ As mentioned, this is a very minimal example. This code should be changed to sol
 - Fix random seeds, to make results (and bugs) better reproducible.
 - Visualize the results of your network! By visualizing the input image and printing/logging the predicted result, you can get insight in the performance of your model.
 - And of course, improve network and the hyperparameters to get a better performance!
+
+## HPC
+In order to run this repository on the Snellius High Performance Computing platform, please follow our [HPC Tutorial](https://tue-5aua0.github.io/hpc_tutorial.html)
