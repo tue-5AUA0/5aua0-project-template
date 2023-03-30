@@ -4,12 +4,19 @@ This template contains a minimal implementation of a convolutional neural networ
 
 ## Requirements
 This code has been tested with the following versions:
-- python == 3.8
-- pytorch == 1.11
-- torchvision == 0.12
-- numpy == 1.21
-- pillow == 9.0
-- cudatoolkit == 11.3 (Only required for using GPU & CUDA)
+- python == 3.10
+- pytorch == 2.0
+- torchvision == 0.15
+- numpy == 1.23
+- pillow == 9.4
+- cudatoolkit == 11.7 (Only required for using GPU & CUDA)
+
+## Conda install
+
+conda create --name 5aua0 python=3.10
+conda activate 5aua0
+conda init
+conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
 
 ## Dataset
 To download and prepare the dataset, follow these steps:
